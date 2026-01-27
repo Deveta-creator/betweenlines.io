@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Between Lines</title>
+  <title>Between the Lines</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
@@ -11,45 +11,56 @@
     body {
       margin: 0;
       padding: 0;
-      background: #f7f4ef;
+      background: linear-gradient(180deg, #f5efe6, #ebe4d9);
       font-family: 'Playfair Display', serif;
-      color: #2c2c2c;
+      color: #2b2b2b;
       line-height: 1.8;
     }
 
     .page {
-      max-width: 680px;
+      max-width: 700px;
       margin: 80px auto;
-      padding: 60px 40px;
+      padding: 60px 50px;
       background: #ffffff;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+      border-left: 6px solid #c1b7a4;
     }
 
     h1 {
       text-align: center;
       font-weight: 600;
-      margin-bottom: 50px;
       letter-spacing: 1px;
+      margin-bottom: 60px;
+      color: #3a4f7a;
     }
 
     .poem {
-      margin-bottom: 60px;
+      margin-bottom: 70px;
     }
 
     .poem-title {
-      font-weight: 600;
-      margin-bottom: 15px;
+      font-size: 1.2rem;
+      font-style: italic;
+      margin-bottom: 8px;
+      color: #7a4a3a;
+    }
+
+    .poem-date {
+      font-size: 0.8rem;
+      color: #888;
+      margin-bottom: 20px;
     }
 
     .poem-text {
       white-space: pre-line;
+      font-size: 1.05rem;
     }
 
     footer {
       text-align: center;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: #777;
-      margin-top: 40px;
+      margin-top: 80px;
     }
   </style>
 </head>
@@ -60,6 +71,7 @@
 
     <div class="poem">
       <div class="poem-title">Untitled</div>
+      <div class="poem-date">January 27, 2026</div>
       <div class="poem-text">
 I write
 between pauses,
@@ -70,6 +82,7 @@ before becoming meaning.
 
     <div class="poem">
       <div class="poem-title">Another Note</div>
+      <div class="poem-date">January 20, 2026</div>
       <div class="poem-text">
 Some thoughts
 are meant to be read slowly,
@@ -82,5 +95,4 @@ on an old window.
       © 2026 · Between the Lines
     </footer>
   </div>
-</body>
-</html>
+</body
